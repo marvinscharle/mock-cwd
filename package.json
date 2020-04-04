@@ -1,0 +1,25 @@
+{
+  "name": "mock-cwd",
+  "version": "1.0.0",
+  "description": "Mocks the current working directory to a given path. Helpful to be used inside tests.",
+  "main": "index.js",
+  "author": "Marvin Scharle",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "yarn jest --config jest.config.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^8",
+    "@types/randomstring": "^1.1.6",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "randomstring": "^1.1.5",
+    "temp-dir": "^2.0.0"
+  }
+}
