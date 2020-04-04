@@ -5,6 +5,14 @@
   "main": "index.js",
   "author": "Marvin Scharle",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpDatabase/base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marvinscharle/mock-cwd/issues"
+  },
+  "homepage": "https://github.com/marvinscharle/mock-cwd#readme",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "yarn jest --config jest.config.js"
